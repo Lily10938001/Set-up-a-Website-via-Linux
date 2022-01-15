@@ -2,6 +2,7 @@
 Practicing for using Linux.
 
 To be up on Linux, I randomly chose a html template online and set up a website via Linux.
+Source :  https://www.free-css.com/free-css-templates
 
 ------------------------------------
 VirtualBox setting : 
@@ -24,6 +25,8 @@ CentOS :
 6.	ls找到檔名並解壓縮 : yum install unzip → unzip 檔名
 7.	暫時關閉Linux安全管理模式 : setenforce 0
 8.	在瀏覽器上查詢 ”IP位址/解壓縮資料夾名稱” 就能成功看到網頁
-9.	編輯網頁html : yum install vim → vim 下載檔html檔名
-10.	會直接開啟編輯頁面
-11.	查找內容並編輯 : “/內容” (用”n”找下一個) → ”I”
+
+編輯網頁HTML : 
+1.	yum install vim → vim 下載檔html檔名(會直接開啟編輯頁面)
+2.	查找內容(EX: title, image...) : “/內容” (用”n”找下一個)
+3.	編輯 : ”I” → 改為自己的內容
